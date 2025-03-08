@@ -1,39 +1,79 @@
-# 🚀 Data Structure Algorithm and Visualization
+# 🖥️ Data Structure Algorithm and Visualization  
 
-![DSA](https://img.shields.io/badge/Data%20Structures%20and%20Algorithms-%F0%9F%94%A7%20Visualization-blue)
-![Python](https://img.shields.io/badge/Python-%E2%9D%A4-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![Status](https://img.shields.io/badge/Project-Active-green)
-
-> 🎯 A **dynamic and interactive visualization tool** for **Data Structures and Algorithms (DSA)** built using `Streamlit` & `Python`. This project helps in **better understanding of DSA concepts** with live animations and graphical representations.  
+## 📌 Project Overview  
+**Data Structure Algorithm and Visualization** is an **interactive web application** designed to help users **understand and visualize** fundamental **Data Structures and Algorithms (DSA)**.  
+It provides **real-time animations**, **step-by-step execution**, and **performance insights** for various DSA concepts, making learning more **engaging and intuitive**.  
 
 ---
 
-## ✨ Features
-✅ **Interactive UI** – User-friendly interface for DSA operations.  
-✅ **Real-time Visualization** – Watch sorting, searching & more in action!  
-✅ **Dynamic Animations** – Highlighting & step-by-step explanations.  
-✅ **Multiple Algorithms** – Covers **Sorting, Searching, Stack, Queue, Greedy, Backtracking** & more.  
-✅ **Educational Tool** – Best for students learning DSA.  
+## 🚀 Features  
+
+✅ **Algorithm Visualizations**  
+- Step-by-step execution with **interactive animations**.  
+- Dynamic updates for **sorting, searching, stacks, queues, graphs, and recursion**.  
+- **Color-coded** highlighting for better understanding.  
+
+✅ **User-friendly Interface**  
+- **Dashboard** with categorized algorithm tiles.  
+- **Parameter sliders & dropdowns** for custom input.  
+- **Visualization canvas** for real-time rendering.  
+
+✅ **Performance Metrics**  
+- **Sorting**: Number of swaps, comparisons, time complexity.  
+- **Searching**: Steps taken, comparisons.  
+- **Graphs**: BFS, DFS traversal order, shortest path calculations.  
+
+✅ **Graphical Representations**  
+- **Sorting**: Bar graphs representing element swaps.  
+- **Searching**: Highlighted step-by-step element lookups.  
+- **Graph Algorithms**: Node-edge visualizations using **NetworkX**.  
+
+✅ **Dataset Options**  
+- Custom input via text fields.  
+- Predefined sample datasets for quick testing.  
 
 ---
 
-## 📸 Demo Screenshots  
-<p align="center">
-  <img src="https://via.placeholder.com/600x300.png?text=Visualization+Demo+1" alt="DSA Visualization 1" width="45%"/>
-  <img src="https://via.placeholder.com/600x300.png?text=Visualization+Demo+2" alt="DSA Visualization 2" width="45%"/>
-</p>
+## 📊 Supported Algorithms  
+
+### ✅ Sorting  
+- **Bubble Sort**  
+- **Selection Sort**  
+- **Insertion Sort**  
+- **Merge Sort**  
+- **Quick Sort**  
+
+### ✅ Searching  
+- **Linear Search**  
+- **Binary Search**  
+
+### ✅ Stack & Queue  
+- **Stack Operations (Push, Pop, Peek, Display)**  
+- **Queue Operations (Enqueue, Dequeue, Display)**  
+
+### ✅ Graph Algorithms  
+- **Breadth-First Search (BFS)**  
+- **Depth-First Search (DFS)**  
+- **Dijkstra's Algorithm**  
+
+### ✅ Recursion & Backtracking  
+- **Factorial, Fibonacci (Recursion)**  
+- **N-Queens Problem**  
+- **Knapsack Problem**  
 
 ---
 
-## 🛠️ Technologies Used  
-- **Frontend**: `Streamlit`, `HTML`, `CSS`  
-- **Backend**: `Python`  
-- **Libraries**: `NumPy`, `Matplotlib`, `NetworkX` (for Graph visualization)  
+## 🖥 System Requirements  
+
+| Component      | Requirement              |  
+|--------------|------------------------|  
+| Python Version | 3.8+                    |  
+| Libraries     | `numpy`, `pandas`, `matplotlib`, `networkx`, `streamlit` |  
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure  
+
 ```bash
 📦 Data-Structure-Algorithm-and-Visualization
 │── 📁 modules          # Contains algorithm implementations
@@ -42,43 +82,62 @@
 │── 📄 requirements.txt # Dependencies list
 │── 📄 README.md        # Project Documentation
 
-🚀 Installation & Usage
+🔧 Setup & Installation
 1️⃣ Clone the Repository
 git clone https://github.com/pavan161617/Data-Structure-Algorithm-and-Visulization.git
 cd Data-Structure-Algorithm-and-Visulization
-2️⃣ Install Dependencies
+2️⃣ Create a Virtual Environment
+python -m venv venv  
+source venv/bin/activate   # On Windows: venv\Scripts\activate  
+3️⃣ Install Dependencies
 pip install -r requirements.txt
-3️⃣ Run the Application
-streamlit run app.py
+4️⃣ Run the Application
+streamlit run ds_visualization.py
 
-📌 Algorithms Implemented
-Category	Algorithms
-Sorting	Bubble Sort, Merge Sort, Quick Sort, Insertion Sort
-Searching	Linear Search, Binary Search
-Graph	BFS, DFS, Dijkstra's Algorithm
-Stack & Queue	Stack Operations, Queue Operations
-Others	Greedy Algorithms, Backtracking Problems
-📬 Contribution
+📜 Usage
+Open the App in your browser (http://localhost:8501).
+Select the Algorithm Category:
+Sorting
+Searching
+Stack & Queue
+Graphs
+Recursion & Backtracking
+Choose a specific algorithm from the dropdown.
+Provide custom input or use predefined datasets.
+Click Visualize to see:
+Step-by-step execution
+Algorithm logic visualization
+Performance metrics (like swaps, comparisons, traversal order, etc.)
+Graphical plots (bar charts, tree structures, graph edges, etc.)
+
+📦 Example Output
+Selected Algorithm:
+Quick Sort
+
+Input Array: [9, 5, 1, 4, 3]
+
+Visualization:
+✅ Pivot Selection highlighted.
+✅ Partitions Swapping animated.
+✅ Sorted Array: [1, 3, 4, 5, 9]
+
+🏅 Future Enhancements
+Add more algorithms (AVL Trees, Heap Sort, Graph Shortest Paths).
+Optimize performance for large datasets.
+Support interactive animations with better UI/UX.
+Add explanations for theoretical understanding.
+Allow saving visualizations as GIFs.
+
+🤝 Contributing
 🔹 Found a bug? Open an issue.
 🔹 Want to add a new feature? Fork & contribute.
-🔹 Star ⭐ the repo if you like the project!
+🔹 Star ⭐ this repo if you like the project!
 
-🎯 Future Improvements
-✅ More Algorithm Visualizations
-✅ Performance Optimization
-✅ User Interaction Enhancements
+📧 Contact
+Developer: Pavan Kumar
+GitHub: pavan161617
+LinkedIn: Pavan Kumar
 
-📌 Connect with Me
-
-
-🚀 Let's make learning DSA more interactive and fun!
-
-### Why This `README.md` Looks Cool?  
-✔ **Badges** – Adds a professional touch.  
-✔ **Neatly Structured** – Easy to read & navigate.  
-✔ **Icons & Emojis** – Engages readers.  
-✔ **Code Blocks & Tables** – Improves clarity.  
-✔ **Demo Screenshots** – Helps users visualize the tool.  
-
-
+⭐ If you like this project, please star the repository! ⭐
+This `README.md` is **structured, visually appealing, and highly professional**.
 
