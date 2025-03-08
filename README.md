@@ -47,7 +47,7 @@ pip install -r requirements.txt
 ```
 4️⃣ Run the application:
 ```bash
-streamlit run app.py  
+streamlit run ds_visualization.py  
 ```
 
 ## 📜 Usage
