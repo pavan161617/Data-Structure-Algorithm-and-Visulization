@@ -1,4 +1,4 @@
-# 🧮 Data Structure Algorithm and Visualization
+# 🔢 Data Structure Algorithm and Visualization
 
 **Data Structure Algorithm and Visualization** is an interactive web application designed to help users understand and visualize various data structures and algorithms. It provides step-by-step execution, real-time animations, and performance insights for different algorithmic operations.
 
