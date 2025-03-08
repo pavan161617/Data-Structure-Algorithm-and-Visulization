@@ -41,23 +41,16 @@
 │── 📄 app.py           # Main Streamlit application
 │── 📄 requirements.txt # Dependencies list
 │── 📄 README.md        # Project Documentation
+
 🚀 Installation & Usage
 1️⃣ Clone the Repository
-sh
-Copy
-Edit
 git clone https://github.com/pavan161617/Data-Structure-Algorithm-and-Visulization.git
 cd Data-Structure-Algorithm-and-Visulization
 2️⃣ Install Dependencies
-sh
-Copy
-Edit
 pip install -r requirements.txt
 3️⃣ Run the Application
-sh
-Copy
-Edit
 streamlit run app.py
+
 📌 Algorithms Implemented
 Category	Algorithms
 Sorting	Bubble Sort, Merge Sort, Quick Sort, Insertion Sort
@@ -74,14 +67,11 @@ Others	Greedy Algorithms, Backtracking Problems
 ✅ More Algorithm Visualizations
 ✅ Performance Optimization
 ✅ User Interaction Enhancements
+
 📌 Connect with Me
 
 
 🚀 Let's make learning DSA more interactive and fun!
-
-markdown
-Copy
-Edit
 
 ### Why This `README.md` Looks Cool?  
 ✔ **Badges** – Adds a professional touch.  
@@ -90,4 +80,5 @@ Edit
 ✔ **Code Blocks & Tables** – Improves clarity.  
 ✔ **Demo Screenshots** – Helps users visualize the tool.  
 
-Let me know if you want any modifications! 🚀
+
+
